@@ -38,4 +38,4 @@ jobs:
                 key: ${{ secrets.key }}
                 port: 22
                 #server é nome da nossa aplicação no PM2
-                script: pm2 restart server
+                script: pm2 restart app
